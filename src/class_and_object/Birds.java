@@ -39,11 +39,23 @@ public class Birds {
         birdOne.birdWeight=500;
         birdOne.birdType="pet";
 
+        Animal animalOne=new Animal();
+        animalOne.setAnimalNumber(200);
+        animalOne.setAnimalWeight(1000);
+        animalOne.setAnimalType("pet");
+
+
+
+
         //parametrised constructor
         Birds birdTwo=new Birds(2000,"Peacock","scream",400,"pet");
+        Animal animalTwo=new Animal(300,50,"wild");
+
 
         System.out.println(birdOne);
         System.out.println(birdTwo);
+        System.out.println(animalOne);
+        System.out.println(animalTwo);
 
     }
 }
